@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import pymysql
 
-conn = pymysql.connect(host='bdm250384326.my3w.com', unix_socket='/tmp/mysql.sock',user='bdm250384326', passwd='picc1234', db='bdm250384326_db',charset='utf8')
+conn = pymysql.connect(host='.my3w.com', unix_socket='/tmp/mysql.sock',user='', passwd='', db='',charset='utf8')
 cur = conn.cursor()
 
 def store(title, content,title_url,content_url,count):
